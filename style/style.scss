@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Tenor+Sans|PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic);
+
 * {
   padding: 0;
   margin: 0;
@@ -24,19 +26,45 @@
 
     .header-logo { 
       display: flex;
-      justify-content: center;
-      padding-top: 30vh;
-      .logo { }
+      justify-content: start;
+      .logo {
+        // width: 20%;
+        // height: 100%;
+        color: #FB8C03;
+        font-size: 50px;
+        text-shadow: 1px 1px 1px rgb(33, 33, 33);
+        position: relative;
+        top: 30px;
+        left: 30px;
+      }
     }
     
-    .header-title { 
-      text-align: center;
-      padding-top: 50px;
-    }
-  
-    .header-sutitle {
-      text-align: center;
-      padding-top: 50px;
+    .text {
+      padding-top: 125px;
+
+      .header-title { 
+        font-family: 'PT Serif', serif;
+        font-size: 30px;
+        letter-spacing: 1px;
+        text-align: center;
+        padding: 15px 15px 15px 15px;
+        color: #FB8C03;
+        text-shadow: 1px 1px 1px rgb(47, 47, 47);
+        text-transform: uppercase;
+        // background-color: rgba(0, 0, 255, 0.336);
+      }
+    
+      .header-sutitle {
+        font-family: 'PT Serif', serif;
+        letter-spacing: 1px;
+        text-align: center;
+        padding: 20px 15px 20px 15px;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #FB8C03;
+        text-shadow: 1px 1px 1px rgb(33, 33, 33);
+        // background-color: rgba(251, 255, 0, 0.336);
+      }
     }
   }
 

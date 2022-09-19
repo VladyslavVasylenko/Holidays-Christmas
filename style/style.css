@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Tenor+Sans|PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic);
 * {
   padding: 0;
   margin: 0;
@@ -29,19 +30,43 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-top: 30vh;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 
-.wrapper .header .header-title {
-  text-align: center;
-  padding-top: 50px;
+.wrapper .header .header-logo .logo {
+  color: #FB8C03;
+  font-size: 50px;
+  text-shadow: 1px 1px 1px #212121;
+  position: relative;
+  top: 30px;
+  left: 30px;
 }
 
-.wrapper .header .header-sutitle {
+.wrapper .header .text {
+  padding-top: 125px;
+}
+
+.wrapper .header .text .header-title {
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
+  letter-spacing: 1px;
   text-align: center;
-  padding-top: 50px;
+  padding: 15px 15px 15px 15px;
+  color: #FB8C03;
+  text-shadow: 1px 1px 1px #2f2f2f;
+  text-transform: uppercase;
+}
+
+.wrapper .header .text .header-sutitle {
+  font-family: 'PT Serif', serif;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 20px 15px 20px 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #FB8C03;
+  text-shadow: 1px 1px 1px #212121;
 }
 /*# sourceMappingURL=style.css.map */
